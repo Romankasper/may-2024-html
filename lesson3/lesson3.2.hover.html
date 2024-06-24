@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .pink{
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 200px;
+            transition: 2s;
+            display: flex;
+            justify-content: center;
+            align-items:center ;
+        }
+        .pink:hover{
+            background-color: yellow;
+            border-radius: 50%;
+            /*border: 2px solid darkslategray;*/
+            transition: 2s;
+      transform: rotate(360deg);
+        }
+        .pink:hover p{
+            color: cornsilk;
+        }
+        p:hover{
+            color: #d11a05;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="pink">
+    <p>Lorem ipsum dolor.</p>
+</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, quas.</p>
+</body>
+</html>

@@ -1,0 +1,20 @@
+body{
+    background-color: #eddcb7;
+}
+.card{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 20px;
+    transition: 1.5s;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card:hover{
+    background-color: gray;
+    border-radius: 50%;
+    transition: 1.5s;
+}
