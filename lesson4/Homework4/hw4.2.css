@@ -1,0 +1,26 @@
+.top{
+    height: 60vh;
+    background-color: #4774f4;
+    margin: 60px;
+}
+
+.inside{
+    height: 60vh;
+    width: 50vh;
+    background-color: #1d3bd3;
+    margin: 40px;
+}
+.bottom{
+    height: 90vh;
+    background-color: #4774f4;
+    margin: 60px;
+}
+p{
+    color: white;
+    font-size: 30px;
+}
+div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
