@@ -1,0 +1,75 @@
+body{
+    background-color: #acdee1;
+}
+
+.main-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.main-box div{
+    width: 240px;
+    height: 200px;
+    margin: 15px 5px;
+    border: 2px solid black;
+    box-shadow: 7px 18px 12px -1px rgba(0,0,0,0.55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.red{
+    background-color: red;
+    color: white;
+}
+.green{
+    background-color: green;
+    color: white;
+}
+.blue{
+     background-color: blue;
+    color: white;
+ }
+.fuchsia{
+    background-color: fuchsia;
+    color: white;
+}
+.white{
+    background-color: white;
+    color: black;
+}
+.yellow{
+    background-color: yellow;
+    color: black;
+}
+.purple{
+    background-color: purple;
+    color: white;
+}
+.maroon{
+    background-color: maroon;
+    color: white;
+}
+.olive{
+    background-color: olive;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    margin: 30px 0;
+}
+h3{
+    font-size: 50px;
+    margin: 6px;
+}
+p{
+    font-size: 30px;
+    margin: 6px;
+}
