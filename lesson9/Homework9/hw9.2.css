@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first{
+    height: 500px;
+    width: 420px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 50px;
+    margin: 20px 0;
+    font-family: "Lobster Two", sans-serif;
+}
+
+input{
+    height: 45px;
+    width: 300px;
+    display: block;
+    padding-left: 10px;
+}
+
+.first p{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #706d6d;
+}
+
+input[type="password"]{
+    margin: 10px 0 25px 0;
+    border-radius: 2px;
+}
+
+input[type="text"]{
+    border-radius: 2px;
+}
+
+input[type="submit"]{
+    background-color: #65a9ff;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.face{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one{
+    text-decoration: none;
+    color: #192b87;
+    font-size: 20px;
+}
+
+.two{
+    text-decoration: none;
+    color: #364788;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.second{
+    height: 80px;
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.three{
+    text-decoration: none;
+    color: #65a9ff;
+}
+
+img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.bord{
+    border: 1px solid #cac9c9;
+}

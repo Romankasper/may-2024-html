@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #75caf6;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-box{
+    background-color: white;
+    width: 500px;
+    height: 330px;
+    border-radius: 10px;
+}
+
+.text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid gray;
+}
+
+p{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+form{
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    display: block;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    height: 40px;
+    width: 450px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+
+input[type="submit"]{
+    height: 40px;
+    width: 190px;
+    border: 2px solid #e4aa18;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bottom{
+    height: 70px;
+    width: 500px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
