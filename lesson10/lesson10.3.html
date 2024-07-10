@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul li::after{
+            content: "&&&&&&";
+            color: darkgray;
+        }
+
+        ul li {
+            list-style-type: none;
+        }
+        ul li::before{
+            content: "";
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            /*background-color: #f40606;*/
+            margin-right: 10px;
+            background-image: url(data:image/png;base64,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);
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, fugiat.</li>
+    <li>Animi debitis doloribus illum, magnam magni perspiciatis tenetur vero voluptates?</li>
+    <li>At dolorem nisi nobis porro quam recusandae, reprehenderit sunt temporibus?</li>
+    <li>Ab atque dignissimos dolores fuga mollitia officia saepe sit ullam.</li>
+    <li>A culpa cumque deleniti dolores molestias mollitia natus officiis rerum?</li>
+    <li>Amet dolore doloribus enim eos iste libero, perferendis similique totam.</li>
+    <li>Consequatur eveniet harum nihil. Illum iste minima molestiae quibusdam velit?</li>
+    <li>A aperiam eaque fugit laboriosam reiciendis sapiente sunt suscipit voluptates?</li>
+    <li>Aliquid aspernatur delectus dolore dolorem libero molestiae quibusdam quisquam temporibus.</li>
+    <li>Animi architecto iusto sequi. Enim laudantium nostrum officia quam quas?</li>
+</ul>
+</body>
+</html>
