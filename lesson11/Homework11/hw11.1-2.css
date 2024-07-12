@@ -1,0 +1,88 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    margin-right: 25px;
+}
+
+
+.one{
+    animation: one 2s ease-out infinite;
+}
+
+.two{
+    animation: two 2s ease-out infinite;
+}
+
+.three{
+    animation: three 2s ease-out infinite;
+}
+
+
+@keyframes one {
+    0% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(1.5);
+    }
+    40% {
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    70%{
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes two {
+    0% {
+        transform: scale(1);
+    }
+    30% {
+        transform: scale(1.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+    60%{
+        transform: scale(1.1);
+    }
+    80%{
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes three {
+    0% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1.5);
+    }
+    60% {
+        transform: scale(1);
+    }
+    70%{
+        transform: scale(1.1);
+    }
+    90%{
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

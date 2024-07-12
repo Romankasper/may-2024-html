@@ -1,0 +1,114 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inside{
+    height: 100px;
+    width: 100px;
+    background-color: #4078f4;
+}
+
+.one{
+    animation: one 1s linear infinite;
+}
+
+.two{
+    animation: two 1s linear infinite;
+}
+
+.three{
+    animation: three 1s linear infinite;
+}
+
+.four{
+    animation: four 1s linear infinite;
+}
+
+.five{
+    animation: five 1s linear infinite;
+}
+
+@keyframes one {
+    0%{
+        background-color: #4078f4;
+    }
+    14%{
+        background-color: rgba(64, 120, 244, 0.48);
+    }
+    29%{
+        background-color: rgba(64, 120, 244, 0);
+    }
+    100%{
+        background-color: #4078f4;
+    }
+}
+
+@keyframes two {
+    0%{
+        background-color: #4078f4;
+    }
+    30%{
+        background-color: rgba(64, 120, 244, 0.48);
+    }
+    45%{
+        background-color: rgba(64, 120, 244, 0);
+    }
+
+    100%{
+        background-color: #4078f4;
+    }
+}
+@keyframes three {
+    0%{
+        background-color: #4078f4;
+    }
+    46%{
+        background-color: rgba(64, 120, 244, 0.48);
+    }
+    61%{
+        background-color: rgba(64, 120, 244, 0);
+    }
+    100%{
+        background-color: #4078f4;
+    }
+}
+@keyframes four {
+    0%{
+        background-color: #4078f4;
+    }
+    63%{
+        background-color: rgba(64, 120, 244, 0.48);
+    }
+    78%{
+        background-color: rgba(64, 120, 244, 0);
+    }
+    100%{
+        background-color: #4078f4;
+    }
+}
+@keyframes five {
+    0%{
+        background-color: #4078f4;
+    }
+    80%{
+        background-color: rgba(64, 120, 244, 0.48);
+    }
+    95%{
+        background-color: rgba(64, 120, 244, 0);
+    }
+    100%{
+        background-color: #4078f4;
+    }
+}
+
+
