@@ -1,0 +1,10 @@
+@media screen and (max-width: 767px){
+    .main{
+        flex-direction: column;
+        width: 375px;
+        flex-wrap: wrap;
+    }
+    .main div{
+        width: 340px;
+    }
+}

@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px)  {
+    div{
+        flex-direction: column;
+    }
+    aside{
+        height: 20vh;
+        width: 100%;
+    }
+    section{
+        height: 60vh;
+        width: 100%;
+    }
+}

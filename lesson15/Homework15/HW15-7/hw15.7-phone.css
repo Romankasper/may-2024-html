@@ -1,0 +1,15 @@
+@media screen and (max-width: 767px){
+    .main {
+        width: 380px;
+        flex-direction: column;
+    }
+    .main div{
+        width: 343px;
+    }
+    .main div h5{
+        font-size: 20px;
+    }
+    .main div p{
+        font-size: 16px;
+    }
+}

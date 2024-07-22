@@ -1,0 +1,14 @@
+@media screen and (min-width: 768px) and (max-width: 1440px){
+    .bg-img {
+        height: 400px;
+    }
+    .bg-img h2{
+        font-size: 32px;
+    }
+    .bg-img p{
+        font-size: 18px;
+        width: 672px;
+        margin: 35px 0 30px 0;
+    }
+
+}

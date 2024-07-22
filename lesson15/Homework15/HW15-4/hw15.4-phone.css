@@ -1,0 +1,22 @@
+@media screen and (max-width: 767px){
+    .main{
+        flex-direction: column;
+    }
+    .button button{
+        font-size: 14px;
+    }
+    .button a{
+        font-size: 14px;
+    }
+    .left h2{
+        width: 100%;
+        font-size: 32px;
+    }
+    ul li{
+        font-size: 18px;
+    }
+    iframe{
+        width: 343px;
+        height: 192px;
+    }
+}

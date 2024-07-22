@@ -1,0 +1,6 @@
+@media screen and (min-width: 481px) and (max-width: 1024px){
+    .center section{
+        width: 25%;
+        height: 40vh;
+    }
+}

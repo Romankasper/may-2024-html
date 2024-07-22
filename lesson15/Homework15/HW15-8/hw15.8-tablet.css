@@ -1,0 +1,9 @@
+@media screen and (min-width: 768px) and (max-width: 1440px){
+   .main{
+       width: 750px;
+       flex-wrap: wrap;
+   }
+    .main div{
+        width: 348px;
+    }
+}
