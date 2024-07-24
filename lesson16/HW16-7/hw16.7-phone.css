@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px){
+    .grid{
+        grid-auto-columns: 1fr 1fr;
+        grid-auto-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "header header"
+        "two one"
+        "three four"
+        "five five"
+        "footer footer"
+    ;
+    }
+}

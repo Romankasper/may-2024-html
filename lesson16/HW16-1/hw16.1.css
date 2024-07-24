@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+}
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-auto-columns: 3fr 1fr;
+    grid-auto-rows: 1fr 2fr;
+    grid-template-areas:
+    "header header"
+    "main aside"
+;
+}
+header{
+    background-color: #ff6f6f;
+    grid-area: header;
+}
+main{
+    background-color: #b5ff6f;
+    grid-area: main;
+}
+aside{
+    background-color: #6fe9ff;
+    grid-area: aside;
+}

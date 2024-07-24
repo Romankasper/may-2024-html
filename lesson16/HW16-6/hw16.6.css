@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+}
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-auto-columns: 3fr 1fr;
+    grid-auto-rows: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr;
+    grid-template-areas:
+    "header header"
+    "one top"
+    "one top"
+    "two top"
+    "two bottom"
+    "three bottom"
+    "three bottom"
+    "footer footer"
+;
+}
+header{
+    background: #8D8484;
+    grid-area: header;
+}
+section:nth-child(2){
+    background: #776969;
+    grid-area: one;
+}
+section:nth-child(3){
+    background: #643030;
+    grid-area: two;
+}
+section:nth-child(4){
+    background: #441818;
+    grid-area: three;
+}
+aside:nth-child(5){
+    background: #937575;
+    grid-area: top;
+}
+aside:nth-child(6){
+    background: #644C4C;
+    grid-area: bottom;
+}
+footer{
+    background: #BDBDBD;
+    grid-area: footer;
+}
+header, footer, section, aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section, aside{
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+footer, header{
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
