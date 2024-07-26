@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+<!--  header  -->
+
+<div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <span class="fs-4">BB</span>
+        </a>
+
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="Home.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="Catalog.html" class="nav-link">Catalog</a></li>
+            <li class="nav-item"><a href="About-us.html" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="Contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="Tips.html" class="nav-link active" aria-current="page">Tips</a></li>
+        </ul>
+    </header>
+</div>
+
+<!--  tips  -->
+
+<p class="text-center text-bg-secondary">Some tips</p>
+
+<div class="container px-4 py-5" id="featured-3">
+
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAAsTAAALEwEAmpwYAAACoElEQVR4nO2Wy2+MYRTGf1GlLQvGwlDj1vYvUImFqkSiLhGhot2hQ9IGK7cIG5kuVCqCRTPiLhLiljBYMclIiD9Arew08Q9YV07yvHLyZi7f6ASLPpvv/c77nnPey3nOOTCL/xTLgHQZ+TzN2TdGWnMzxijwDbgEtAJLgDvAR+AJ8Am4BaSANmBc63ONcH4V2AAMyeEHYHu0ZgdQ0kaGtP5KI5zngJ0aHwQuurkeNx7TPFp/YaaOu4Dr7gqPAXvc/CY37geOug1fAzr/xGkrcB94BpwEJoD3wHl3OkPWje26zwHvtN70ngP3ZC8xbgCHItkqYBJ44GTH3fgh8AVYGellZS8RMsAbjecCC93ccuA70K7/vfq2S+7ptQBo0vgtsCKJ893AGY3X6L/Xze/S+wanITa2uDWbFXThFs5KryZ6gcvuv0lGRtzJjGpFUc++2yRfCgxr/Rxnw2i3MYnz9cCPCpE6KMcvgUWSLQYKQB8wUEanU/a6qzntAl4Dj2TEkskpyT2KzjFuA8Uy9k7Ljtl7rE12xY7tiqZEl4AW0W0a+Al8BubrqsshyCe0flr6ZsdH/lT0JL+vp6AdDipdngDWljm5ndQjpTzg0SGul9zJX9VKPN16I1OOMaDgKrgNpPRcW4H9Vd58HQmjfTyK9oyiPZTWvijazXGI9hGtDxwP0e7rQF08N95W43l/xOPAc9tEXTzPVMlwIZMFp/siuWXAShku6NREPioahtXAV0Vwpdw+qRrgcUT2EqMFuAu8ENfzqlZWtQ4kqGp56Zn+7YhuidGhulypnvfUqOflGFMXcmqTUC23juWvdDK+hzssapXcZnDOQg+XbWQPN6pudEwdSUrdqjl6qu9NJZ02dbkN617TFfr2Zsmb69CZxb/HL8naiRWLL/XyAAAAAElFTkSuQmCC">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Tips for Choosing Flowers:</h3>
+            <p>"Selecting the perfect flowers can be a joyful experience. Consider the recipient's favorite colors, the
+                occasion, and the message you want to convey. For romantic gestures, roses are classic, while sunflowers
+                and daisies are great for cheerful, friendly gifts.".</p>
+        </div>
+        <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAAsTAAALEwEAmpwYAAACYklEQVR4nO2Wy0tVURTGfxkVhHaT67O0B3lN8w5DJTFTkiKqG3EnQRSVV3TSwIIGoSA2y4wGgeWsdFKGl4KCHuMef0PD5kHzKBZ8gm72PufcvAqB3+ScvdZee+2z13e+tWET/xn2AX16bhiqgXngAVDQc172dUEGyANngM/AIcffAnyRP6/5ZUEr0K/3bmAsMO8W0KX3AcWtCXXABNCh8ZDq7EOf/Ib9wJ1/LcUOYAZ4BFwF7gIvgRFgNBBjvhvAAjCl8WPgPrC9lOQzQI9jawI+AW8CMa+Bj8BBx96r9RKhFpgL+Gzhn0C7Y7fxr4g6P1UJY3EcGI7wX1YJcsBZYBBYBK5FxBQiuLIKh4FJwjgKXHRsKeAKUBmIMdIeIQFy+pJ0oCT2pVs077SYbQtXAJc8MbaxJc2PxXngAFAEzgG7nY0he7WzKRsf07uhSvOKEqHY5DUrWF4nBv8Gvovl95xNrIQl2Al8A34Af4B3QL38PYHTXIWcWLukU0g5Pjw1t6/sVKJllUtLaos6SVsrFjngFbDL4xvUZrLAKdkqpWzblMAVlLTWS5Q8K0XzoUKKZ89GLWik26rWejIQN5W02fQD12P+2Scil9W4QbI6HhEz4lFML+qlSD60ScnaRcgT6nRZKZ+Rzoc5kTkRHnqO0EjzPkLb3wIfgD2OfaAUbUekmdaOb6ozLeh4Q9I7pON9oV/Sut+sbjoldbVlpNSXmxP2c9scItd4KUed5CbTFXGTua1/Hc0v21UqA1yQaHz1EKtFypbXvLIldmEa/lwkKuj5zOkB644m3VL2bmTSTbBW/AVji1vSHgM0PAAAAABJRU5ErkJggg==">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Flower Care Tips:</h3>
+            <p>"To keep your flowers fresh longer, change the water daily, trim the stems, and keep them out of direct
+                sunlight and away from heat sources."</p>
+        </div>
+        <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAfCAYAAAAfrhY5AAAACXBIWXMAAAsTAAALEwEAmpwYAAACdUlEQVR4nO2WSWuUQRCGn8yMSzRqEBnNwYgKGjRB4h49xFsiGqNxQQxGEfUoxqAeBPdlRCUeJAG3iUZcj24ggmeP/gXB/yEFb0PRfBN74hznvUxXVVe93dVVNR/UUcfU6AB6gbvAW2ACeCO5V/aaoyCi88BBYCiyD0lv9jKQryX5DuCkk5dFdi+fArr/l7ABuA68AL4D+xL9Dmi/+V1TnKpxEejReiXwHtgueRYwT+v5wAzn9whYpbXVwYVqiWcDk5HOCF8D61UDe6RfA+S0XpThN6l4yRgHTgDtkd5u+1m3HZAu/Bqe6TAB7Yozlkq8CbgR6Xz1rgU+6RBPtd4L7Fe1o8x43AQ2ppDfBpZHutXAEaAJuAecdQey32HgF9AMDLo3D7B4t1LIJ9wbeuR1MCM2LAZ2AUXJ52TP8s2p//+JJ3pHu4WhFVihQgsDpKjWy2lvUal+BWwBdgJL5d+sPY9TyMsZuoKC2Sg17HZptwNs09q6YYk6IyVu5s09LL0jwDvgp7v5gIi7ohGcGjcTD4BDKq47ap9uEfWruNABLMVzJI+oA8oqzlb5WBYOA/dJQF5z/I+Ce1jqP6i4QjsVRGz6BZoF1nYlZeK34iX/2VwCOiPdZqBF68vAF41cm+FXpG9xzxDQqXjJKAONkS7Ieb33oJv9oeAMczP8nldD3gWMAjOBtsi2AVgo8j6X+nXRvjb5W5ytVIke4FtGBgL6VEiV0Cj/kJ2qMQwcq2CzkXt1Ct/jbhpOCw1qt5KGh7Wax9dI7te+kkbttD4kYthofQh8dB+J9t32AzgquUP20YxOqQma1GbWDaelOwO8lN7sddRBJfwFuONb/F2RomgAAAAASUVORK5CYII="> </div>
+            <h3 class="fs-2 text-body-emphasis">Event Decoration Tips:</h3>
+            <p>"Planning an event? Choose flowers that match the theme and color scheme. For weddings, consider seasonal
+                blooms to create a cohesive look that complements your venue."</p>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
